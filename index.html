@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="timeApp">
+
+<head>
+
+    <title>Basic Simple Page</title>
+
+    <!--MetaTag-->
+    <meta charset="UTF=8">
+    <!--========-->
+
+    <!-- This is importatnt for mobile responsive site.    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!--===-->
+
+</head>
+
+<body ng-controller="mainCtrl">
+
+    {{kevin}}
+    <show-time></show-time>
+    <!--This is element type tag.-->
+
+    <!--Attaching Default Angular Script Set-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js" charset="utf-8"></script>
+    <!--========================================-->
+
+    <!--My Custom Script Set-->
+    <script src="./js/app.js" charset="utf-8"></script>
+    <script src="./js/controllers/mainCtrl.js" charset="utf-8"></script>
+    <script src="./js/services/mainService.js" charset="utf-8"></script>
+    <script src="./js/controllers/timeDirective.js" charset="utf-8"></script>
+    <!--=======================-->
+</body>
+
+</html>
